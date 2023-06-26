@@ -31,3 +31,13 @@
 
 .btnCodeConduct {
 }
+
+@media screen and (max-width: 1210px) {
+  .txtInscribete{
+    width: 100%; 
+    font-size: 1.1em;
+  }
+  .btnRegistration,.btnCodeConduct {
+    width: 100%;
+  }
+}

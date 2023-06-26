@@ -8,6 +8,7 @@ const Header = () => {
         <div className="logo">
           <div className="dashLogo"></div>
         </div>
+        
         <nav className="navbar">
           <div className="containerNavbar">
           <h1>
@@ -25,6 +26,7 @@ const Header = () => {
           </div>
         </nav>
       </header>
+      
       <Main/>
     </div>
   );

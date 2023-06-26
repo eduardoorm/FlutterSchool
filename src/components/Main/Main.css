@@ -14,3 +14,19 @@
 
 }
 
+@media screen and (max-width: 1210px) {
+    .tituloContainerMain{
+        text-align: center;
+        line-height: 1em;
+        display: hidden;
+    }
+    .anioContainerMain{
+        display: none;
+    }
+    .btnInscribirse{
+        display: block;
+        margin: auto;
+        margin-top: 290px;
+    }
+  }
+

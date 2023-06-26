@@ -11,7 +11,6 @@ const Main = () => {
       <a target="_blank" href="https://gdg.community.dev/events/details/google-gdg-ica-presents-flutter-school-2023/">
         <button className="button btnInscribirse">¡Inscribirse!</button>
       </a>
-      <ScrollToTopButton></ScrollToTopButton>
     </div>
   );
 };
