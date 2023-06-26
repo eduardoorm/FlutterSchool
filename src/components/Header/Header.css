@@ -66,3 +66,11 @@ height: 160px;
     background-position: center;
 }
 
+@media screen and (max-width: 1210px) {
+    .header{
+        display: none;
+    }
+    .background{
+        padding-top: 1%;
+    }
+  }
