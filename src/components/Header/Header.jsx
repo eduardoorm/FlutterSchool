@@ -6,7 +6,9 @@ const Header = () => {
     <div className="background">
       <header className="flex header">
         <div className="logo">
+          <a href="/">
           <div className="dashLogo"></div>
+          </a>
         </div>
         
         <nav className="navbar">

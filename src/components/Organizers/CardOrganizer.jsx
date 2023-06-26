@@ -1,9 +1,11 @@
 import React from 'react'
 import './CardOrganizer.css'
-const CardOrganizer = ({imageUrl}) => {
+const CardOrganizer = ({imageUrl,href}) => {
   return (
     <div className='organizer'>
-    <div className='imgOrganizer' style={{backgroundImage: `url(${imageUrl})`}}></div>
+      <a target='_blank' href={href}>
+      <div className='imgOrganizer' style={{backgroundImage: `url(${imageUrl})`}}></div>
+      </a>
     </div>
   )
 }
