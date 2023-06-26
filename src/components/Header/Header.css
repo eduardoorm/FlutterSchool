@@ -1,0 +1,67 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.background{
+background-image: url(../../assets/dashBackground.png);
+background-size: cover;
+background-position: center;
+height: 100vh;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+width: 14%;
+height: 160px;
+}
+
+.containerMain{
+    margin-top: 14%;
+    padding-left: 5%;
+}
+
+.navbar{
+    display:flex;
+    width: 86%;
+    justify-content: space-around;
+}
+
+.containerNavbar{
+    display:flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.button{
+    padding: 0.8em;
+    width: 18em;
+    border:none;
+    border-radius: 2em;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.containerNavbar > h1 > a {
+    list-style: none;
+    text-decoration: none;
+    color:white
+}
+
+.dashLogo{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/logoDash.png);
+    background-size: cover;
+    background-position: center;
+}

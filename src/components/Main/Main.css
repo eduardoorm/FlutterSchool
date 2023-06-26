@@ -1,0 +1,16 @@
+.tituloContainerMain{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0.4;
+    color: rgb(31, 31, 31);
+}
+
+.btnInscribirse{
+    background-color: #1E2A6B;
+    color:white;
+}
+.btnInscribirse:hover{
+    background-color: #1e2a6bb8;
+
+}
+

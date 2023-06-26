@@ -1,0 +1,36 @@
+.sectionFooter{
+    background-color: #81BCED;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4em;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.titleContact{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.containerSocial{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.credits{
+    margin-top: 15%;
+    height: 80px;
+    width: 100%;
+    background-color: #1E2A6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+}
+
+.credits > p >a {
+    color: white;
+    text-decoration: none;
+}

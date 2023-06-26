@@ -1,0 +1,25 @@
+.sectionSponsor{
+    background-color: #1E2A6B;
+    color:white;
+    height: 100vh;
+    padding-top: 5%;
+}
+
+.titleSectionSponsor{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containerSponsors{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 6%;
+ }
+
+
+

@@ -1,0 +1,14 @@
+
+.organizer{
+    width: 24%;
+    height: 200px;
+    margin:50px;
+}
+
+.imgOrganizer{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}

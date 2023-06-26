@@ -1,0 +1,17 @@
+.sectionOrganizer{
+    background-color: #1E2A6B;
+    color:white;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.titleOrganizer{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.containerOrganizers{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
