@@ -1,6 +1,6 @@
 .containerImageSponsor{
     width: 32%;
-    height: 32%;
+    height: 34%;
     padding: 0em 0.4em;
 }
 
@@ -34,5 +34,8 @@
 @media screen and (max-width: 1210px) {
     .containerImageSponsor{
       width: 80%; 
+    }
+    .containerSponsors >  .containerImageSponsor:nth-child(1){
+        width: auto;
     }
 }
