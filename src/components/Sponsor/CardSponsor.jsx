@@ -1,11 +1,16 @@
-import React from 'react'
-import './CardSponsor.css'
-const CardSponsor = ({imageUrl}) => {
+import React from "react";
+import "./CardSponsor.css";
+const CardSponsor = ({ imageUrl, href }) => {
   return (
     <div className="containerImageSponsor">
-    <div className="imgSponsorGithub" style={{backgroundImage: `url(${imageUrl})`}}></div>
+      <a href={href} target="_blank">
+        <div
+          className="imgSponsor"
+          style={{ backgroundImage: `url(${imageUrl})` }}
+        ></div>
+      </a>
     </div>
   );
-}
+};
 
-export default CardSponsor
+export default CardSponsor;
