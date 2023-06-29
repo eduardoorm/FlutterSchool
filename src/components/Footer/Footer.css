@@ -1,7 +1,6 @@
 .sectionFooter{
     background-color: #81BCED;
     height: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.4em;
     padding-top: 5%;
     text-align: center;
@@ -9,7 +8,6 @@
 
 .titleContact{
     font-size: 80px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .containerSocial{

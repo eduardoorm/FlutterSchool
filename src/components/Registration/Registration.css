@@ -2,7 +2,6 @@
   height: 100vh;
   background-color: #81bced;
   padding: 1% 0%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2.2em;
   text-align: center;
   display: flex;
@@ -10,7 +9,6 @@
 
 .txtInscribete {
   font-size: 80px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .containerRegistration {
