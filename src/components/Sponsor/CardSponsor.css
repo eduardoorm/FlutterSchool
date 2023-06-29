@@ -36,6 +36,7 @@ a{
     background-color: #E8EAED;
     border-radius: 12px;
     border-bottom: 8px solid rgb(1, 5, 16);
+    margin-bottom: 1em;
 }
 .containerImageSponsor:hover{
     cursor: pointer;

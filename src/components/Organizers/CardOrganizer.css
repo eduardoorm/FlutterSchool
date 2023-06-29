@@ -3,14 +3,17 @@
     width: 24%;
     height: 200px;
     margin:50px;
+    background-color: #E8EAED;
+    border-radius: 12px;
 }
 
 .imgOrganizer{
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 60%;
     height: 100%;
+    margin: auto;
 }
 
 .imgOrganizer:hover{
