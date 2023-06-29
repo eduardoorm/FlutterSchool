@@ -9,8 +9,14 @@ const Organizer = () => {
       <div className="sectionOrganizer">
         <h1 className="titleOrganizer">Organizadores</h1>
         <div className="containerOrganizers">
-          <CardOrganizer imageUrl={gdgIcaLogo} href={'https://gdg.community.dev/gdg-ica/'}/>
-          <CardOrganizer imageUrl={flutterIcaLogo} href={'https://gdg.community.dev/gdg-ica/'} />
+          <CardOrganizer
+            imageUrl={gdgIcaLogo}
+            href={"https://gdg.community.dev/gdg-ica/"}
+          />
+          <CardOrganizer
+            imageUrl={flutterIcaLogo}
+            href={"https://gdg.community.dev/gdg-ica/"}
+          />
         </div>
       </div>
     </section>

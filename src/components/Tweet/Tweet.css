@@ -1,0 +1,22 @@
+.title{
+    text-align: center;
+}
+
+.sectionTweets{
+    margin: 5em 0em;
+}
+
+.containerTweets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.containerItemTweet{
+    min-width: 28%;
+    margin: 0.3em;
+}
+
+.containerItemTweet img {
+    display: none;
+  }

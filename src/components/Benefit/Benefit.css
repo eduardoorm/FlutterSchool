@@ -1,0 +1,39 @@
+.containerBenefits{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#FEF2DF ;
+    font-size: 1.1em;
+}
+
+.containerBenefitItem{
+    width: 30%;
+    height: 24%;
+    margin:1em;
+    padding: 2em;
+    border:1px solid rgba(0, 0, 0, 0.259);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.txtTileBenefit{
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.imgTitleBenefit{
+    background: url(../../assets/laptop.png);
+    width: 2em;
+    height: 2em;
+    background-size: contain;
+    background-position: center;
+    margin-right: 0.5em;
+}
+
+.containerTitleBenefit{
+    display: flex;
+    align-items: center;
+}

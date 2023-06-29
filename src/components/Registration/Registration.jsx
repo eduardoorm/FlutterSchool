@@ -1,5 +1,6 @@
 import React from "react";
 import "./Registration.css";
+import logo from "../../assets/logoDash.png";
 export const Registration = () => {
   return (
     <section id="register">
@@ -18,7 +19,8 @@ export const Registration = () => {
             <button className="button btnCodeConduct">
               Código de Conducta
             </button>
-          </a>
+          </a><br></br>
+          <img src={logo} className="imgRegistration" />
         </div>
       </div>
     </section>

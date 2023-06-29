@@ -30,6 +30,12 @@
 .btnCodeConduct {
 }
 
+.imgRegistration{
+  width: 12em;
+  height: 6.5em;
+  float: right;
+}
+
 @media screen and (max-width: 1210px) {
   .txtInscribete{
     width: 100%; 
