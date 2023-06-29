@@ -12,10 +12,10 @@ const Schedule = () => {
       </div>
 
       <div className="containerItemsSchedule">
-        <ItemSchedule/>
-        <ItemSchedule/>
-        <ItemSchedule/>
-        <ItemSchedule/>
+        <ItemSchedule hours={"9:30 AM"}  dateSession={"AGT 06"} titleSession={"Introducción a Flutter"}/>
+        <ItemSchedule hours={"10:30 AM"} dateSession={"AGT 06"} titleSession={"Introducción a Flutter"}/>
+        <ItemSchedule hours={"11:30 AM"} dateSession={"AGT 06"} titleSession={"Introducción a Flutter"}/>
+        <ItemSchedule hours={"12:00 PM"} dateSession={"AGT 06"} titleSession={"Introducción a Flutter"}/>
       </div>
     </div>
   );
