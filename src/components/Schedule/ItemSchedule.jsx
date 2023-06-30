@@ -1,6 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const ItemSchedule = ({ hours,dateSession, titleSession }) => {
+
   return (
     <div className="containerItemSchedule">
       <div className="containerDateHourItemSchedule">

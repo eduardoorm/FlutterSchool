@@ -57,10 +57,22 @@
 
 .containenButtonsDay{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .containerSchedule > h1 {
     text-align: center;
     font-size: 2.5em;
+}
+
+.btnDays{
+    width: 10em;
+    margin: 1em;
+    background-color: rgba(0, 85, 255, 0.644);
+    color: white;
+}
+
+.btnDays:hover{
+    background-color: rgb(228, 225, 225);
 }
