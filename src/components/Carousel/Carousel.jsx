@@ -31,14 +31,14 @@ const Carousel = () => {
 
           <ItemCarousel
             color={"rgba(224, 247, 224, 0.718)"}
-            txtComment={"Es una experiencia única llena de aprendizaje"}
+            txtComment={"'Es una experiencia única llena de aprendizaje'"}
             name={"Leonidas Esteban"}
             rol={"Google Developer Expert"}
           ></ItemCarousel>
 
           <ItemCarousel
             color={"rgba(247, 238, 219, 0.718)"}
-            txtComment={"Aprendamos a construir una app móvil"}
+            txtComment={"'Aprendamos a construir una app móvil'"}
             name={"Pierre Guillen"}
             rol={"Google Developer Expert"}
           ></ItemCarousel>
@@ -46,7 +46,7 @@ const Carousel = () => {
           <ItemCarousel
             color={"rgba(233, 183, 183, 0.718)"}
             txtComment={
-              "Es una excelente oportunidad para expandir nuestros conocimientos"
+              "'Es una excelente oportunidad para expandir nuestros conocimientos'"
             }
             name={"Midudev"}
             rol={"Google Developer Expert"}

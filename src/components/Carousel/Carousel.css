@@ -1,8 +1,8 @@
 .containerCarousel{
     width: 80%;
-    height: 30vh;
     margin: auto;
     padding: 2em 0em;
+    height: 30em;
 }
 .swiper-container {
     max-width: 100%;
@@ -16,8 +16,12 @@
 
   .containerSwiperItem{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     height: 100%;
+    text-align: center;
+
   }
 
   .imgSpeakerSwiperItem{
@@ -26,6 +30,7 @@
     height: 15em;
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 100%;
     margin: 1em;
   }
@@ -33,8 +38,15 @@
   .txtComentSpeakerItem{
     font-weight: 700;
     font-size: 2em;
+    text-align: center;
   }
   .nameSpeakerSwiper,.rolSpeakerSwiper{
     color:rgba(21, 21, 252, 0.784);
     font-weight: 700;
+    display: block;
+    text-align: start;
+    line-height: 0.1em;
+  }
+  .nameSpeakerSwiper{
+    margin-top: 1.2em;
   }
