@@ -1,7 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const ItemSchedule = ({ hours,dateSession, titleSession }) => {
-
+const ItemScheduleSpeakerText = ({ hours, dateSession, titleSession , imageUrl }) => {
   return (
     <div className="containerItemSchedule">
       <div className="containerDateHourItemSchedule">
@@ -11,7 +10,7 @@ const ItemSchedule = ({ hours,dateSession, titleSession }) => {
         </p>
       </div>
       <div className="sessionInformationItemSchedule">
-        <div className="imgSpeakerItemSchedule"></div>
+        <div style={{backgroundImage:`url(${imageUrl})`}} className="imgSpeakerItemSchedule"></div>
         <p className="titleSessionItemSchedule">
           {titleSession} <br />
           <span className="nameSpeakerItemSchedule">Pierre Guillen</span>
@@ -21,4 +20,4 @@ const ItemSchedule = ({ hours,dateSession, titleSession }) => {
   );
 };
 
-export default ItemSchedule;
+export default ItemScheduleSpeakerText;

@@ -1,6 +1,9 @@
 import "./Schedule.css";
-import ItemSchedule from "./ItemSchedule";
+import ItemSchedule from "./ItemScheduleSpeakerText";
 import React, { useState } from "react";
+import speakerPierre from "../../assets/speakers/pierreGuillen.jpg";
+import ItemScheduleSpeakerText from "./ItemScheduleSpeakerText";
+import ItemScheduleText from "./ItemScheduleText";
 const Schedule = () => {
   const [showDay1, setShowDay1] = useState(true);
   const [showDay2, setShowDay2] = useState(false);
@@ -31,7 +34,7 @@ const Schedule = () => {
   };
   return (
     <div className="containerSchedule">
-      <h1>Schedule</h1>
+      <h1>Agenda</h1>
       <div className="containenButtonsDay">
         <button onClick={toggleContainer} className="button btnDays btnDay1">
           Sábado 05
@@ -43,77 +46,87 @@ const Schedule = () => {
           Sábado 19
         </button>
       </div>
+
       {showDay1 && (
         <div className="containerItemsSchedule">
-          <ItemSchedule
+          <ItemScheduleSpeakerText
+            imageUrl={speakerPierre}
             hours={"9:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
-          <ItemSchedule
+          <ItemScheduleSpeakerText
+            imageUrl={speakerPierre}
             hours={"10:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
-          <ItemSchedule
+          <ItemScheduleSpeakerText
+            imageUrl={speakerPierre}
             hours={"11:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
-          <ItemSchedule
+          <ItemScheduleText
             hours={"12:00 PM"}
             dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
+            titleSession={"Cierre de la primera sesión"}
           />
         </div>
       )}
 
       {showDay2 && (
         <div className="containerItemsSchedule">
-          <ItemSchedule
+          <ItemScheduleSpeakerText
+            imageUrl={speakerPierre}
             hours={"9:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"¿Qué es Dart?"}
           />
-          <ItemSchedule
+          <ItemScheduleSpeakerText
+            imageUrl={speakerPierre}
             hours={"10:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
-          <ItemSchedule
+          <ItemScheduleSpeakerText
+            imageUrl={speakerPierre}
             hours={"11:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
-          <ItemSchedule
+          <ItemScheduleText
             hours={"12:00 PM"}
             dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
+            titleSession={"Cierre de la segunda sesión"}
           />
         </div>
       )}
 
       {showDay3 && (
         <div className="containerItemsSchedule">
-          <ItemSchedule
+          <ItemScheduleSpeakerText
+            imageUrl={speakerPierre}
             hours={"9:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Creando una aplicación en Flutter"}
           />
-          <ItemSchedule
+          <ItemScheduleSpeakerText
+            imageUrl={speakerPierre}
             hours={"10:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
-          <ItemSchedule
+          <ItemScheduleSpeakerText
+            imageUrl={speakerPierre}
             hours={"11:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
-          <ItemSchedule
+          <ItemScheduleText
             hours={"12:00 PM"}
             dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
+            titleSession={"Cierre de la tercera sesión"}
           />
         </div>
       )}
