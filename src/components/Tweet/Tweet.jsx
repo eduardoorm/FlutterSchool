@@ -6,12 +6,12 @@ const Tweet = () => {
     <div className="sectionTweets">
       <h1 className="title">Menciones</h1>
       <div className="containerTweets">
-        <ItemTweet></ItemTweet>
-        <ItemTweet></ItemTweet>
-        <ItemTweet></ItemTweet>
-        <ItemTweet></ItemTweet>
-        <ItemTweet></ItemTweet>
-        <ItemTweet></ItemTweet>
+        <ItemTweet />
+        <ItemTweet />
+        <ItemTweet />
+        <ItemTweet />
+        <ItemTweet />
+        <ItemTweet />
       </div>
     </div>
   );
