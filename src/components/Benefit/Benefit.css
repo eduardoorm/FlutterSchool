@@ -1,15 +1,24 @@
+.sectionBenefit>h1{
+    margin-bottom: 2em;
+    font-size: 2.5em;
+    color: rgba(25, 25, 25, 0.976);
+}
 .containerBenefits{
-    width: 100%;
+    width: 75%;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color:#FEF2DF ;
+    background-color:#81bced ;
     font-size: 1.1em;
+    padding: 3em 0em;
 }
 
 .containerBenefitItem{
     width: 30%;
+    height: 12em;
+    overflow: hidden;
     margin:1em;
     padding: 2em;
     border:1px solid rgba(0, 0, 0, 0.259);

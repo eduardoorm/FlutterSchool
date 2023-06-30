@@ -5,14 +5,18 @@
 }
 .sectionPlaceEvent > h1{
     text-align: center;
-    font-size: 2.3em;
+    font-size: 2.5em;
+    margin-top: 3em;
+    margin-bottom: 1.3em;
+    color: rgba(25, 25, 25, 0.976);
 }
 .containerPlaceEvent{
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 83%;
+    height: 60%;
 }
 
 .containerDetailPlaceEvent{

@@ -50,27 +50,29 @@ const Schedule = () => {
       {showDay1 && (
         <div className="containerItemsSchedule">
           <ItemScheduleSpeakerText
-            backgroundSolid={"rgb(232, 33, 33)"}
+            backgroundSolid={"#1E2A6B"}
             imageUrl={speakerPierre}
             hours={"9:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
           <ItemScheduleSpeakerText
+            backgroundSolid={"#1E2A6B"}
             imageUrl={speakerPierre}
             hours={"10:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
           <ItemScheduleSpeakerText
+            backgroundSolid={"#1E2A6B"}
             imageUrl={speakerPierre}
             hours={"11:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
           <ItemScheduleText
-            backgroundSolid={"rgb(246, 181, 59)"}
-            backgroundLight={"rgb(250, 238, 215)"}
+            backgroundSolid={"#81bced"}
+            backgroundLight={"#c9dcec"}
             hours={"12:00 PM"}
             dateSession={"AGT 06"}
             titleSession={"Cierre de la primera sesión"}
@@ -81,27 +83,29 @@ const Schedule = () => {
       {showDay2 && (
         <div className="containerItemsSchedule">
           <ItemScheduleSpeakerText
-            backgroundSolid={"rgb(232, 33, 33)"}
+            backgroundSolid={"#1E2A6B"}
             imageUrl={speakerPierre}
             hours={"9:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"¿Qué es Dart?"}
           />
           <ItemScheduleSpeakerText
+            backgroundSolid={"#1E2A6B"}
             imageUrl={speakerPierre}
             hours={"10:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
           <ItemScheduleSpeakerText
+            backgroundSolid={"#1E2A6B"}
             imageUrl={speakerPierre}
             hours={"11:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
           <ItemScheduleText
-            backgroundSolid={"rgb(246, 181, 59)"}
-            backgroundLight={"rgb(250, 238, 215)"}
+            backgroundSolid={"#81bced"}
+            backgroundLight={"#c9dcec"}
             hours={"12:00 PM"}
             dateSession={"AGT 06"}
             titleSession={"Cierre de la segunda sesión"}
@@ -112,27 +116,29 @@ const Schedule = () => {
       {showDay3 && (
         <div className="containerItemsSchedule">
           <ItemScheduleSpeakerText
-            backgroundSolid={"rgb(232, 33, 33)"}
+            backgroundSolid={"#1E2A6B"}
             imageUrl={speakerPierre}
             hours={"9:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Creando una aplicación en Flutter"}
           />
           <ItemScheduleSpeakerText
+            backgroundSolid={"#1E2A6B"}
             imageUrl={speakerPierre}
             hours={"10:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
           <ItemScheduleSpeakerText
+            backgroundSolid={"#1E2A6B"}
             imageUrl={speakerPierre}
             hours={"11:30 AM"}
             dateSession={"AGT 06"}
             titleSession={"Introducción a Flutter"}
           />
           <ItemScheduleText
-            backgroundSolid={"rgb(246, 181, 59)"}
-            backgroundLight={"rgb(250, 238, 215)"}
+            backgroundSolid={"#81bced"}
+            backgroundLight={"#c9dcec"}
             hours={"12:00 PM"}
             dateSession={"AGT 06"}
             titleSession={"Cierre de la tercera sesión"}

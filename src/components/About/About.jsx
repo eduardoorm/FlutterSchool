@@ -4,7 +4,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const About = () => {
-  AOS.init();
+  AOS.init({
+    duration: 1100
+  });
   return (
     <section id="about">
       <div className="containerAbout">

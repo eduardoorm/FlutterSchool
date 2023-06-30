@@ -23,7 +23,7 @@ export const Registration = () => {
             </button>
           </a>
           <br></br>
-          <img src={logo} className="imgRegistration" />
+          <img src={logo} className="imgRegistration aos-init aos-animate"  data-aos="zoom-in"/>
         </div>
       </div>
     </section>

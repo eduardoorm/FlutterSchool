@@ -2,9 +2,11 @@
   height: 100vh;
   background-color: #81bced;
   padding: 1% 0%;
-  font-size: 2.2em;
+  font-size: 2.5em;
+  font-weight: 700;
   text-align: center;
   display: flex;
+  color: rgba(25, 25, 25, 0.976);
 }
 
 .txtInscribete {

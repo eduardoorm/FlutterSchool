@@ -1,40 +1,46 @@
-.title{
-    text-align: center;
+.title {
+  text-align: center;
 }
 
-.sectionTweets{
-    margin: 5em 0em;
+.sectionTweets {
+  margin: 5em 0em;
 }
-.twitter-tweet{
-    display: block;
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: auto;
+
+.sectionTweets > h1 {
+  margin-top: 3.7em;
+  font-size: 2.5em;
+  color: rgba(25, 25, 25, 0.976);
 }
-.containerTweets{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.twitter-tweet {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: auto;
 }
-.containerItemTweet{
-    display: block;
-    width: 32em;
-    margin: 0.3em;
+.containerTweets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.containerItemTweet {
+  display: block;
+  width: 27em;
+  margin: 0.3em;
 }
 
 .containerItemTweet img {
-    display: none;
+  display: none;
+}
+
+@media screen and (max-width: 1210px) {
+  .containerItemTweet {
+    width: 90%;
   }
 
-  @media screen and (max-width: 1210px) {
-    .containerItemTweet{
-      width: 90%; 
-    }
-
-    .twitter-tweet{
-        overflow: hidden;
-    }
+  .twitter-tweet {
+    overflow: hidden;
+  }
 }

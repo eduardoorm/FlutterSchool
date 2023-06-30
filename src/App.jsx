@@ -20,15 +20,15 @@ function App() {
       <Header />
       <About />
       <Carousel></Carousel>
-      <Sponsor />
       <Schedule />
+      <InformationBar />
+
+      <Place />
+      <Benefit />
       <Tweet />
-      <InformationBar/>
-      <Theme/>
-      <Registration />
-      <Benefit/>
-      <Place/>
       <Organizer />
+      <Registration />
+      <Sponsor />
       <Footer />
     </div>
   );

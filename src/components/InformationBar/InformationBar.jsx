@@ -7,39 +7,39 @@ const InformationBar = () => {
       <div className="containerInformation">
         <div className="containerInformationBar">
           <ItemInformationBar
-            backgroundColor="rgba(0, 30, 255, 0.858)"
+            backgroundColor="#66b2f0"
             textInformation={"Construye una app desde Cero"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"rgba(255, 166, 0, 0.91)"}
+            backgroundColor={"black"}
             textInformation={"#FlutterSchoolIca"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"rgba(0, 0, 0, 0.885)"}
+            backgroundColor={"#66b2f0"}
             textInformation={"Conecta con desarolladores locales"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"rgba(255, 0, 0, 0.752)"}
+            backgroundColor={"black"}
             textInformation={" Obten un certificado al finalizar"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"rgba(0, 30, 255, 0.858)"}
+            backgroundColor={"#66b2f0"}
             textInformation={"Muchas sorpresas durante el curso"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"rgba(0, 0, 0, 0.885)"}
+            backgroundColor={"black"}
             textInformation={"Descubre el desarrollo móvil"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"rgba(0, 30, 255, 0.858)"}
+            backgroundColor={"#66b2f0"}
             textInformation={"Construye una app desde Cero"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"rgba(255, 166, 0, 0.91)"}
+            backgroundColor={"black"}
             textInformation={"#FlutterSchoolIca"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"rgba(0, 0, 0, 0.885)"}
+            backgroundColor={"#66b2f0"}
             textInformation={"Conecta con desarolladores locales"}
           ></ItemInformationBar>
         </div>

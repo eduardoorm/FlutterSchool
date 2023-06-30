@@ -1,5 +1,6 @@
 .tituloContainerMain{
-    font-size: 60px;
+    font-size: 3.3em;
+    font-weight: 700;
     line-height: 0.4;
     color: rgb(31, 31, 31);
 }
