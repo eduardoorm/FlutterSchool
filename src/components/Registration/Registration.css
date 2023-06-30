@@ -8,13 +8,11 @@
 }
 
 .txtInscribete {
-  font-size: 80px;
 }
 
 .containerRegistration {
   margin: auto;
   width: 80%;
-  line-height: 0.1;
 }
 .btnRegistration {
   margin-bottom: 1.3em;
@@ -36,12 +34,16 @@
   float: right;
 }
 
+.txtContainerRegistration{
+}
+
 @media screen and (max-width: 1210px) {
-  .txtInscribete{
-    width: 100%; 
-    font-size: 1.1em;
-  }
+
   .btnRegistration,.btnCodeConduct {
     width: 100%;
+  }
+  .imgRegistration{
+    width: 7em;
+    height: 5em;
   }
 }

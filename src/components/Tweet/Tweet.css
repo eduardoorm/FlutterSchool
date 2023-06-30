@@ -5,18 +5,36 @@
 .sectionTweets{
     margin: 5em 0em;
 }
-
+.twitter-tweet{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: auto;
+}
 .containerTweets{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     width: 100%;
 }
 .containerItemTweet{
-    min-width: 28%;
+    display: block;
+    width: 32em;
     margin: 0.3em;
 }
 
 .containerItemTweet img {
     display: none;
   }
+
+  @media screen and (max-width: 1210px) {
+    .containerItemTweet{
+      width: 90%; 
+    }
+
+    .twitter-tweet{
+        overflow: hidden;
+    }
+}

@@ -1,11 +1,12 @@
 import React from "react";
 
-const ItemCarousel = ({txtComment,name,rol,color}) => {
+const ItemCarousel = ({txtComment,name,rol,color,image}) => {
 
   return (
     <div className="swiper-slide">
       <div className="containerSwiperItem" style={{backgroundColor:color}}>
-        <div className="imgSpeakerSwiperItem"></div>
+
+        <div style={{backgroundImage:`url(${image})`}} className="imgSpeakerSwiperItem"></div>
         <div className="containerComentSpeakerItem">
           <span className="txtComentSpeakerItem">
           {txtComment} 

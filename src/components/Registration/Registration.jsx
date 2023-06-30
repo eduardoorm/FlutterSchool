@@ -6,8 +6,10 @@ export const Registration = () => {
     <section id="register">
       <div className="SectionRegistation">
         <div className="containerRegistration">
-          <p>¿Qué esperas?</p>
-          <p className="txtInscribete">INSCRÍBETE</p>
+          <div className="txtContainerRegistration">
+            <p>¿Qué esperas?</p>
+            <p className="txtInscribete">INSCRÍBETE</p>
+          </div>
           <a
             href="https://gdg.community.dev/events/details/google-gdg-ica-presents-flutter-school-2023/"
             target="_blank"
@@ -19,7 +21,8 @@ export const Registration = () => {
             <button className="button btnCodeConduct">
               Código de Conducta
             </button>
-          </a><br></br>
+          </a>
+          <br></br>
           <img src={logo} className="imgRegistration" />
         </div>
       </div>

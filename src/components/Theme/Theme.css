@@ -12,7 +12,7 @@
 
 .containerThemeItem{
     background: url(../../assets/backgroundFluterTheme.png);
-    background-size: contain;
+    background-size: cover;
     min-width: 40%;
     height: 100%;
     display: flex;

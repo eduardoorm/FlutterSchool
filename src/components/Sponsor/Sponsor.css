@@ -2,17 +2,18 @@
     background-color: #1E2A6B;
     color:white;
     height: 100vh;
-    padding-top: 5%;
+    padding-top: 1em;
 }
 
 .titleSectionSponsor{
     font-size: 60px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .containerSponsors{
     width: 60%;
-    height: 50%;
+    height: 25em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -21,5 +22,16 @@
     margin-top: 6%;
  }
 
+ @media screen and (max-width: 1210px) {
+    .rangeSponsor{
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .sectionSponsor{
+        height: 135vh;
+    }
+
+  }
 
 
