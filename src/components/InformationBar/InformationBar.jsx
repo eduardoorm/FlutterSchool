@@ -11,7 +11,7 @@ const InformationBar = () => {
             textInformation={"Construye una app desde Cero"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"black"}
+            backgroundColor={"rgba(24, 24, 24, 0.939)"}
             textInformation={"#FlutterSchoolIca"}
           ></ItemInformationBar>
           <ItemInformationBar
@@ -19,7 +19,7 @@ const InformationBar = () => {
             textInformation={"Conecta con desarolladores locales"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"black"}
+            backgroundColor={"rgba(24, 24, 24, 0.939)"}
             textInformation={" Obten un certificado al finalizar"}
           ></ItemInformationBar>
           <ItemInformationBar
@@ -27,7 +27,7 @@ const InformationBar = () => {
             textInformation={"Muchas sorpresas durante el curso"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"black"}
+            backgroundColor={"rgba(24, 24, 24, 0.939)"}
             textInformation={"Descubre el desarrollo móvil"}
           ></ItemInformationBar>
           <ItemInformationBar
@@ -35,7 +35,7 @@ const InformationBar = () => {
             textInformation={"Construye una app desde Cero"}
           ></ItemInformationBar>
           <ItemInformationBar
-            backgroundColor={"black"}
+            backgroundColor={"rgba(24, 24, 24, 0.939)"}
             textInformation={"#FlutterSchoolIca"}
           ></ItemInformationBar>
           <ItemInformationBar
