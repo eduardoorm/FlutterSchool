@@ -21,13 +21,14 @@ function App() {
       <About />
       <Carousel></Carousel>
       <Schedule />
+      <Place />
       <InformationBar />
 
-      <Place />
       <Benefit />
       <Tweet />
-      <Organizer />
       <Registration />
+      <Organizer />
+
       <Sponsor />
       <Footer />
     </div>
