@@ -17,13 +17,17 @@ const Schedule = () => {
   const toggleDay2 = () => {
     setShowDay1(false);
     setShowDay3(false);
-    setShowDay2(!showDay2);
+    if (showDay2 != true) {
+      setShowDay2(!showDay2);
+    }
   };
 
   const toggleDay3 = () => {
     setShowDay1(false);
     setShowDay2(false);
-    setShowDay3(!showDay3);
+    if (showDay3 != true) {
+      setShowDay3(!showDay3);
+    }
   };
   return (
     <div className="containerSchedule">
