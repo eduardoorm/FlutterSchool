@@ -40,6 +40,7 @@
     background-repeat: no-repeat;
     border-radius: 100%;
     margin: 1em;
+    margin-right: 4em;
   }
 
   .txtComentSpeakerItem{
@@ -62,10 +63,20 @@
   @media screen and (max-width: 1210px) {
     .containerSwiperItem{
       flex-wrap: wrap;
+      text-align: center;
     }
 
     .containerSwiperItem{
       height: 100%;
     }
+    .imgSpeakerSwiperItem{
+      margin:1em;
+    }
+    .nameSpeakerSwiper,.rolSpeakerSwiper{
+      display: none;
+    }
+    .txtComentSpeakerItem{
+      font-size: 1.5em;
 
+    }
 }
