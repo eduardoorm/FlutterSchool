@@ -5,7 +5,7 @@
     right: 20px;
     width: 40px;
     height: 40px;
-    background-color: #1E2A6B;
+    background-color: #8cc4fd;
     color: #fff;
     border-radius: 50%;
     text-align: center;
@@ -13,6 +13,8 @@
     line-height: 40px;
     cursor: pointer;
     transition: opacity 0.3s ease;
+    border:none;
+    z-index: 1000;
   }
   
   .scroll-to-top-button.visible {

@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ScrollToTopButton from "../Elements/ScrollToTopButton/ScrollToTopButton";
 
 const About = () => {
   AOS.init({
@@ -35,6 +36,7 @@ const About = () => {
 
 
         </div>
+        <ScrollToTopButton></ScrollToTopButton>
         <div className="imgFlutter"></div>
       </div>
     </section>

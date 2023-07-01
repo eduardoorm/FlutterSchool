@@ -33,119 +33,121 @@ const Schedule = () => {
     }
   };
   return (
-    <div className="containerSchedule">
-      <h1>Agenda</h1>
-      <div className="containenButtonsDay">
-        <button onClick={toggleContainer} className="button btnDays btnDay1">
-          Sábado 05
-        </button>
-        <button onClick={toggleDay2} className="button btnDays btnDay2">
-          Sábado 12
-        </button>
-        <button onClick={toggleDay3} className="button  btnDays btnDay3">
-          Sábado 19
-        </button>
+    <section id="schedule">
+      <div className="containerSchedule">
+        <h1>Agenda</h1>
+        <div className="containenButtonsDay">
+          <button onClick={toggleContainer} className="button btnDays btnDay1">
+            Sábado 05
+          </button>
+          <button onClick={toggleDay2} className="button btnDays btnDay2">
+            Sábado 12
+          </button>
+          <button onClick={toggleDay3} className="button  btnDays btnDay3">
+            Sábado 19
+          </button>
+        </div>
+
+        {showDay1 && (
+          <div className="containerItemsSchedule">
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#1E2A6B"}
+              imageUrl={speakerPierre}
+              hours={"9:30 AM"}
+              dateSession={"AGT 06"}
+              titleSession={"Introducción a Flutter"}
+            />
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#1E2A6B"}
+              imageUrl={speakerPierre}
+              hours={"10:30 AM"}
+              dateSession={"AGT 06"}
+              titleSession={"Introducción a Flutter"}
+            />
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#1E2A6B"}
+              imageUrl={speakerPierre}
+              hours={"11:30 AM"}
+              dateSession={"AGT 06"}
+              titleSession={"Introducción a Flutter"}
+            />
+            <ItemScheduleText
+              backgroundSolid={"#81bced"}
+              backgroundLight={"#c9dcec"}
+              hours={"12:00 PM"}
+              dateSession={"AGT 06"}
+              titleSession={"Cierre de la primera sesión"}
+            />
+          </div>
+        )}
+
+        {showDay2 && (
+          <div className="containerItemsSchedule">
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#1E2A6B"}
+              imageUrl={speakerPierre}
+              hours={"9:30 AM"}
+              dateSession={"AGT 06"}
+              titleSession={"¿Qué es Dart?"}
+            />
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#1E2A6B"}
+              imageUrl={speakerPierre}
+              hours={"10:30 AM"}
+              dateSession={"AGT 06"}
+              titleSession={"Introducción a Flutter"}
+            />
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#1E2A6B"}
+              imageUrl={speakerPierre}
+              hours={"11:30 AM"}
+              dateSession={"AGT 06"}
+              titleSession={"Introducción a Flutter"}
+            />
+            <ItemScheduleText
+              backgroundSolid={"#81bced"}
+              backgroundLight={"#c9dcec"}
+              hours={"12:00 PM"}
+              dateSession={"AGT 06"}
+              titleSession={"Cierre de la segunda sesión"}
+            />
+          </div>
+        )}
+
+        {showDay3 && (
+          <div className="containerItemsSchedule">
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#1E2A6B"}
+              imageUrl={speakerPierre}
+              hours={"9:30 AM"}
+              dateSession={"AGT 06"}
+              titleSession={"Creando una aplicación en Flutter"}
+            />
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#1E2A6B"}
+              imageUrl={speakerPierre}
+              hours={"10:30 AM"}
+              dateSession={"AGT 06"}
+              titleSession={"Introducción a Flutter"}
+            />
+            <ItemScheduleSpeakerText
+              backgroundSolid={"#1E2A6B"}
+              imageUrl={speakerPierre}
+              hours={"11:30 AM"}
+              dateSession={"AGT 06"}
+              titleSession={"Introducción a Flutter"}
+            />
+            <ItemScheduleText
+              backgroundSolid={"#81bced"}
+              backgroundLight={"#c9dcec"}
+              hours={"12:00 PM"}
+              dateSession={"AGT 06"}
+              titleSession={"Cierre de la tercera sesión"}
+            />
+          </div>
+        )}
       </div>
-
-      {showDay1 && (
-        <div className="containerItemsSchedule">
-          <ItemScheduleSpeakerText
-            backgroundSolid={"#1E2A6B"}
-            imageUrl={speakerPierre}
-            hours={"9:30 AM"}
-            dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
-          />
-          <ItemScheduleSpeakerText
-            backgroundSolid={"#1E2A6B"}
-            imageUrl={speakerPierre}
-            hours={"10:30 AM"}
-            dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
-          />
-          <ItemScheduleSpeakerText
-            backgroundSolid={"#1E2A6B"}
-            imageUrl={speakerPierre}
-            hours={"11:30 AM"}
-            dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
-          />
-          <ItemScheduleText
-            backgroundSolid={"#81bced"}
-            backgroundLight={"#c9dcec"}
-            hours={"12:00 PM"}
-            dateSession={"AGT 06"}
-            titleSession={"Cierre de la primera sesión"}
-          />
-        </div>
-      )}
-
-      {showDay2 && (
-        <div className="containerItemsSchedule">
-          <ItemScheduleSpeakerText
-            backgroundSolid={"#1E2A6B"}
-            imageUrl={speakerPierre}
-            hours={"9:30 AM"}
-            dateSession={"AGT 06"}
-            titleSession={"¿Qué es Dart?"}
-          />
-          <ItemScheduleSpeakerText
-            backgroundSolid={"#1E2A6B"}
-            imageUrl={speakerPierre}
-            hours={"10:30 AM"}
-            dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
-          />
-          <ItemScheduleSpeakerText
-            backgroundSolid={"#1E2A6B"}
-            imageUrl={speakerPierre}
-            hours={"11:30 AM"}
-            dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
-          />
-          <ItemScheduleText
-            backgroundSolid={"#81bced"}
-            backgroundLight={"#c9dcec"}
-            hours={"12:00 PM"}
-            dateSession={"AGT 06"}
-            titleSession={"Cierre de la segunda sesión"}
-          />
-        </div>
-      )}
-
-      {showDay3 && (
-        <div className="containerItemsSchedule">
-          <ItemScheduleSpeakerText
-            backgroundSolid={"#1E2A6B"}
-            imageUrl={speakerPierre}
-            hours={"9:30 AM"}
-            dateSession={"AGT 06"}
-            titleSession={"Creando una aplicación en Flutter"}
-          />
-          <ItemScheduleSpeakerText
-            backgroundSolid={"#1E2A6B"}
-            imageUrl={speakerPierre}
-            hours={"10:30 AM"}
-            dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
-          />
-          <ItemScheduleSpeakerText
-            backgroundSolid={"#1E2A6B"}
-            imageUrl={speakerPierre}
-            hours={"11:30 AM"}
-            dateSession={"AGT 06"}
-            titleSession={"Introducción a Flutter"}
-          />
-          <ItemScheduleText
-            backgroundSolid={"#81bced"}
-            backgroundLight={"#c9dcec"}
-            hours={"12:00 PM"}
-            dateSession={"AGT 06"}
-            titleSession={"Cierre de la tercera sesión"}
-          />
-        </div>
-      )}
-    </div>
+    </section>
   );
 };
 
