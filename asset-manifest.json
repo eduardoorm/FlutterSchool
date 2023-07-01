@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/FlutterSchool/static/css/main.2418b0ab.css",
+    "main.css": "/FlutterSchool/static/css/main.2c91f104.css",
     "main.js": "/FlutterSchool/static/js/main.bb375ee1.js",
     "static/media/dashBackground.png": "/FlutterSchool/static/media/dashBackground.37ea430a3858c7a8668d.png",
     "static/media/dashMovil.png": "/FlutterSchool/static/media/dashMovil.75327be79bb44f1a3c46.png",
@@ -14,11 +14,11 @@
     "static/media/flutterIcaLigth.png": "/FlutterSchool/static/media/flutterIcaLigth.d85b494c617f4dd3ed4f.png",
     "static/media/midudev.jpg": "/FlutterSchool/static/media/midudev.2cd0e8295f81a3d6bc6b.jpg",
     "index.html": "/FlutterSchool/index.html",
-    "main.2418b0ab.css.map": "/FlutterSchool/static/css/main.2418b0ab.css.map",
+    "main.2c91f104.css.map": "/FlutterSchool/static/css/main.2c91f104.css.map",
     "main.bb375ee1.js.map": "/FlutterSchool/static/js/main.bb375ee1.js.map"
   },
   "entrypoints": [
-    "static/css/main.2418b0ab.css",
+    "static/css/main.2c91f104.css",
     "static/js/main.bb375ee1.js"
   ]
 }
