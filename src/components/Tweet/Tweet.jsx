@@ -9,9 +9,6 @@ const Tweet = () => {
         <ItemTweet />
         <ItemTweet />
         <ItemTweet />
-        <ItemTweet />
-        <ItemTweet />
-        <ItemTweet />
       </div>
     </div>
   );
