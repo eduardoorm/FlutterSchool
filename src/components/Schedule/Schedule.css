@@ -50,11 +50,12 @@
 }
 
 .imgSpeakerItemSchedule {
-  width: 5em;
+  width: 7%;
   height: 80%;
   margin: auto 0px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   margin-right: 2%;
   border-radius: 100%;
 }
@@ -86,6 +87,7 @@
 @media screen and (max-width: 1210px) {
     .containerItemSchedule {
         height: auto;
+        flex-wrap: wrap;
     }
     .containerDateHourItemSchedule{
         width: 100%;
@@ -96,8 +98,19 @@
     }
     .sessionInformationItemSchedule{
         width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
     }
     .containerItemSchedule{
         margin: 1em;
+    }
+    .imgSpeakerItemSchedule{
+      min-width: 10em;
+      height: 10em;
+
+    }
+    .titleSessionItemSchedule{
+
     }
 }

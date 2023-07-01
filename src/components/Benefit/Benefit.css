@@ -50,8 +50,9 @@
 @media screen and (max-width: 1210px) {
     .containerBenefitItem{
       width: 100%;
-      padding: 0.1em;
+      padding: 1em;
       font-size: 0.8em;
+      height: auto;
     }
 
 }
