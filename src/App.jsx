@@ -22,11 +22,9 @@ function App() {
       <Schedule />
       <Place />
       <InformationBar />
-
       <Benefit />
       <Registration />
       <Organizer />
-
       <Sponsor />
       <Footer />
     </div>
