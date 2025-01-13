@@ -6,10 +6,10 @@ const Main = () => {
   return (
     <div className="containerMain">
       <p className="tituloContainerMain">
-        FLUTTER SCHOOL<p className="anioContainerMain">2023</p>
+        FLUTTER SCHOOL<p className="anioContainerMain">2024</p>
       </p>
-      <a target="_blank" href="https://gdg.community.dev/events/details/google-gdg-ica-presents-flutter-school-2023/">
-        <button className="button btnInscribirse">¡Inscribirse!</button>
+      <a target="_blank" href="#">
+        <button className="button btnInscribirse">No disponible</button>
       </a>
      
     </div>
